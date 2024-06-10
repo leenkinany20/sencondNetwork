@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About -  Cybersecurity</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{ url_for('index') }}"> Cybersecurity</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to Learn Cybersecurity, your ultimate resource for mastering the art of securing digital systems and data. We are passionate about providing high-quality cybersecurity education to empower individuals and organizations in protecting against cyber threats.</p>
+            <p>Our team of experienced cybersecurity professionals has curated comprehensive learning materials and practical exercises to guide you through the journey of becoming a cybersecurity expert. Whether you're a beginner or an advanced practitioner, our courses and resources cater to all skill levels.</p>
+        </section>
+
+        <section>
+            <h2>Our Mission</h2>
+            <p>At Learn Cybersecurity, our mission is to equip individuals with the knowledge and skills necessary to defend against cyber attacks and contribute to a safer digital world. We strive to make cybersecurity education accessible and engaging, fostering a community of lifelong learners dedicated to strengthening the security posture of organizations worldwide.</p>
+        </section>
+
+        <section>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Comprehensive curriculum covering a wide range of cybersecurity topics</li>
+                <li>Hands-on learning with practical exercises and real-world scenarios</li>
+                <li>Experienced instructors with extensive industry knowledge</li>
+                <li>Flexible learning options to fit your schedule and learning style</li>
+                <li>Interactive community forums for collaboration and knowledge sharing</li>
+                <li>Opportunities for earning industry-recognized certifications</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
+```

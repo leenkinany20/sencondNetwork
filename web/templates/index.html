@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Cybersecurity - From Beginner to Pro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{ url_for('index') }}">Cybersecurity</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <section>
+            <h2>Learning Steps</h2>
+            <ol>
+                <li>Get familiar with basic networking concepts</li>
+                <li>Learn about common cyber threats and attack vectors</li>
+                <li>Understand different types of malware and their behaviors</li>
+                <li>Explore encryption and cryptographic protocols</li>
+                <li>Study secure coding practices and web application security</li>
+                <li>Master network security, firewalls, and intrusion detection systems</li>
+                <li>Learn about vulnerability assessment and penetration testing</li>
+                <li>Stay updated with the latest security trends and techniques</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>CompTIA Security+</li>
+                <li>Certified Ethical Hacker (CEH)</li>
+                <li>GIAC Security Essentials (GSEC)</li>
+                <li>Certified Information Systems Security Professional (CISSP)</li>
+                <li>Offensive Security Certified Professional (OSCP)</li>
+                <li>Certified Information Security Manager (CISM)</li>
+                <li>Certified Information Systems Auditor (CISA)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Levels</h2>
+            <ul>
+                <li>Beginner</li>
+                <li>Intermediate</li>
+                <li>Advanced</li>
+                <li>Expert</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+```
